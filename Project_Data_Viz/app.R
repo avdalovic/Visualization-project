@@ -17,7 +17,7 @@ library(leaflet.extras)
 library(randomcoloR)
 
 
-gtd$targtype1_txt
+
 # Reading the data file
 gtd <- read_csv("globalterrorism.csv")
 gtd<-gtd%>%select(-nperps)
